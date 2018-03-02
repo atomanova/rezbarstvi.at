@@ -10,7 +10,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 html,
 body {
     background-color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
     color: #202020;
     width: 100%;
     padding: 0;
@@ -419,7 +419,7 @@ textarea::-ms-input-placeholder
 
 
 .scroll-down{
-    /* margin-top:80px; */
+     margin-top:80px; 
     text-transform:uppercase;
     text-align:center;
 }
@@ -444,7 +444,7 @@ textarea::-ms-input-placeholder
     margin-bottom: 4rem;
 }
 .heading h3{
-    font-size:45px;
+    font-size:35px;
     text-transform:uppercase;
     letter-spacing:2px;
 }
@@ -455,38 +455,38 @@ textarea::-ms-input-placeholder
 /* For Menu Section */
 
 .navbar-default {
-    background-color: transparent;
-    background: transparent;
-    border-color: #e7e7e7;
+    background-color: #211f3a;
+    background: #211f3a;
+    border-color: #211f3a;
     margin:0 auto;
 }
 .navbar-default .navbar-nav>li>a {
     color: #f1f1f1;
     text-transform: uppercase;
-    padding-top:35px;
-    padding-bottom:35px;
-    font-size:20px;
+    padding-top:30px;
+    padding-bottom:25px;
+    font-size:18px;
     font-family:'nexa_lightregular';
     letter-spacing:2px;
     line-height:0;
 }
 .navbar-default .navbar-nav>.active>a {
     color: #f1f1f1;
-    background-color: transparent;
+    background-color: #211f3a;
 }
 .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
     color: red;
-    background-color: transparent;
+    background-color:#211f3a;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     color: red;
-    background-color: transparent;
+    background-color: #211f3a;
 }
   .navbar-nav {
     text-align: center;
 }
 .navbar-toggle {
-    background-color:#fff;
+    background-color:#ffffff;
     border:0;
     border-radius:0;
 }
@@ -495,7 +495,7 @@ textarea::-ms-input-placeholder
 }
 
 .menu-bg{
-    background:#772626;
+    background: #211f3a;
 }
 
 /* For Home Section */
@@ -546,16 +546,18 @@ textarea::-ms-input-placeholder
     margin-top:50px;
 }
 
-/* For Proces Section */
-
-#services .proces h2 {
+/* For proces Section */
+#proces .proces{
+    margin-top:40px;
+}
+#proces .proces h2 {
   font-size: 22px;
   margin-bottom: 10px;
   font-family: 'nexa_boldregular';
 
 
 }
-#services .proces p {
+#proces .proces p {
   font-size: 16px;
   font-family: 'nexa_lightregular';
 
@@ -662,7 +664,7 @@ textarea::-ms-input-placeholder
   display: block;
   float: left;
   margin: 0 5px 5px 0;
-  width: 150px;
+  width: 200px;
 }
 .my-gallery figcaption {
   display: none;

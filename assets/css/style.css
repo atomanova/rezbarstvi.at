@@ -16,7 +16,7 @@ body {
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    font-family: 'open_sanslight';
+    font-family: 'nexa_lightregular';
     font-weight: 300;
 }
 /*==========================================
@@ -128,7 +128,8 @@ input[type="color"],
 h1,
 h2,
 h3 {
-    /*font-family: 'Lane', sans-serif;*/
+    /*
+font-family: 'nexa_lightregular';
     font-weight: 300;
     margin: 0;
 }
@@ -155,7 +156,7 @@ h3 {
     font-weight: 300;
     margin-bottom: .9rem;
     font-size: 2.1rem;
-   
+    
 }
 h4 {
     font-size: 1.6rem;
@@ -216,7 +217,7 @@ Section
 .sections {
     padding-top: 100px;
     padding-bottom: 100px;
-    position: relative;
+    csition: relative;
     overflow: hidden;
 }
 .sections.footer {
@@ -225,7 +226,8 @@ Section
 section .subtitle h5 {
     margin-top: 10px;
     font-size: 1.3rem;
-    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-family: 'nexa_boldregular';
 }
 .parallax-section {
     max-width: 100%;
@@ -444,9 +446,10 @@ textarea::-ms-input-placeholder
     margin-bottom: 4rem;
 }
 .heading h3{
-    font-size:35px;
+    font-size:25px;
     text-transform:uppercase;
     letter-spacing:2px;
+    font-family: 'nexa_boldregular';
 }
 .heading p{
     line-height:40px;
@@ -540,10 +543,10 @@ textarea::-ms-input-placeholder
 /* For about Section */
 
 .about-content{
-    margin-top:40px;
+    margin-top:15px;
 }
 .about-content .signature{
-    margin-top:50px;
+    margin-top:30px;
 }
 
 /* For proces Section */

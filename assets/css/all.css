@@ -629,6 +629,17 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
        width:100%;
    }
 
+    /* For kurzy Section */
+    #kurzy .kurzy{
+        margin-top:40px;
+    }
+    #kurzy .kurzy h2 {
+      font-size: 22px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-family: 'nexa_boldregular';
+    }
+
   
    /* For Contact Section */
    
